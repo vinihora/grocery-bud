@@ -164,3 +164,28 @@ input {
 .icon {
   cursor: pointer;
 }
+
+.notification {
+  width: 93%;
+  height: 20px;
+  padding: 6px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+.btn-warn {
+  border: none;
+  background: none;
+  color: var(--clr-red-light);
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btn-warn h4 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
